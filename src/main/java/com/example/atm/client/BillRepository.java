@@ -20,7 +20,6 @@ public class BillRepository {
         return billAmountsCopy.put(bill, billAmountsCopy.get(bill) - amount);
     }
 
-    /* Potential own class */
     public void begin() {
         billAmountsCopy = new HashMap<>(billAmounts);
     }
