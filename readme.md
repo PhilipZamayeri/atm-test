@@ -1,0 +1,1 @@
+To start the atm you go to the Client class and run it.
